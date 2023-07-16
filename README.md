@@ -1,5 +1,8 @@
 # github-sharing-Uc
-Here are the steps involved in the provided lines of code:
+
+### Python For Data Analytics Project 2023 –Unicorn Startup Companies.
+
+Here are the summarize steps involved 
 
 1.The following columns were renamed as 'Date Joined', 'Valuation', 'Select Investors', and 'Funding' to 'Date', 'Valuation ($B)', 'Investors', and 'Funding ($B)' respectively.
 
