@@ -25,4 +25,6 @@ Here are the summarize steps involved
 10.The 'Funding ($B)' column is checked for values containing 'M' (million) using the `str.contains()` method. If a value contains 'M', it is replaced by removing 'M' and converting the result to a float data type, divided by 1000 using the '//' (floor division) operator. If a value does not contain 'M', 'B' (billion) is removed, and the result is converted to a float data type.
 
 11.  NaN values in the 'Funding ($B)' column are replaced with 0 using the `fillna()` method. Then, the column is converted to an integer data type using `astype('int64')`.
+
+
 12.I encountered a challenge regarding the conversion of Funding from string to integer as it contain $ sign as well as Millions to Billions.
