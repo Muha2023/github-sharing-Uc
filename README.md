@@ -27,4 +27,5 @@ Here are the summarize steps involved
 11.  NaN values in the 'Funding ($B)' column are replaced with 0 using the `fillna()` method. Then, the column is converted to an integer data type using `astype('int64')`.
 
 
-12.I encountered a challenge regarding the conversion of Funding from string to integer as it contain $ sign as well as Millions to Billions.
+12.I encountered a challenge regarding the conversion of Funding from string to integer as it contain $ sign as well as Millions(M) to Billions(B).
+   Therefore most of insights were limited to Valuation columns,I intend to explore the Funding column to come out with interesting insights in future.
